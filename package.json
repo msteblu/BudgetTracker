@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "lite-server": "lite-server",
-    "build": "cd public && npm run build",
     "install": "cd public && npm install",
-    "public": "cd public && npm start"
+    "public": "cd public && npm start",
+    "heroku-prebuild": "npm install --dev",
+    "build": "cd public && npm run build"
   },
   "repository": {
     "type": "git",
@@ -27,5 +31,14 @@
     "lite-server": "^2.5.3",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
   }
 }

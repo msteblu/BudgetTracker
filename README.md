@@ -32,11 +32,11 @@ If you use the application through the deployed [Heroku site](https://quiet-reef
 
 If the program was cloned, downloaded, and installed instead, get the application running by typing "npm start" into the command-line. All features of the application are then accessible through _localhost_ on your browser or other applications.
 
-_Home: View Recent Workout_
-![Screenshot of Homepage](public/images/home.png)
+_Home: View Budget_
+![Screenshot of Homepage](public/assets/images/home.png)
 
-_Dashboard: View Stats_
-![Screenshot of Dashboard](public/images/dashboard.png)
+_Offline Capabilities_
+![Screenshot of Offline Capabilities](public/assets/images/offline.png)
 
 ## Credits
 
